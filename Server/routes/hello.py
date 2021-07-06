@@ -30,6 +30,3 @@ with open('./artifacts/banglore_home_prices_model.pickle', 'rb') as f:
 
     print( round(model.predict([x])[0],2) )
     
-# print("loading saved artifacts...")
-# print('Your Name is ', sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-# print(type(sys.argv[2]))
